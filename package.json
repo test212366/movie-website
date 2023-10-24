@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "calc",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "parcel ./src/index.html -p 9999 --open",
+    "build": "parcel build ./src/index.html --no-source-maps --no-minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ],
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "parcel-bundler": "^1.12.5"
+  }
+}
